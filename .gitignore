@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Never commit secrets or local key material
+*.pem
+*_ed25519
+*_rsa
+*TO-PASTE*
+.env
+.env.*

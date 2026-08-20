@@ -1,0 +1,5 @@
+{
+  "name": "cloudpanel-ops",
+  "install": "bash .cursor/scripts/install-cloudpanel-tools.sh",
+  "start": "bash .cursor/scripts/setup-cloudpanel-ssh.sh"
+}
