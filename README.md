@@ -8,6 +8,11 @@ Carrier repo for the **Cursor Cloud Agent** environment that SSHes into the shar
 - Target is the whole server `root@188.245.192.203` (all CloudPanel sites), not a single domain.
 - Live sites stay under `/home/<site-user>/htdocs/<domain>/` and are untouched by pushes to this repo.
 
+## Ops notes
+
+- Disk incident 2026-09-27 (root 100% full): `docs/incidents/2026-09-27-root-disk-full.md`
+- Host copies of the weekly AlexAndy SEO refresh script and journald cap live under `ops/` (apply over SSH; no deploy pipeline).
+
 ## Setup in Cursor
 
 1. Dashboard → Cloud Agents → Environments → select repo `LightPalmMedia/cloudpanel-ops`
